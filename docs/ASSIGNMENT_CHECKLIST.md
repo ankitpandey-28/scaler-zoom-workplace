@@ -70,4 +70,4 @@ OAuth/SSO, email verification, password reset, cloud recording, an SFU, and paid
 6. Create a separate account and confirm its dashboard is isolated from the demo account.
 7. Review `backend/database.py`, `backend/security.py`, `backend/main.py`, and `lib/useMeeting.ts` alongside the [implementation notes](IMPLEMENTATION_NOTES.md) and architecture/API documentation; be prepared to explain the code as the brief requires.
 
-Deployment link: pending; deployment remains deferred.
+Repository: [github.com/ankitpandey-28/scaler-zoom-workplace](https://github.com/ankitpandey-28/scaler-zoom-workplace). Deployment link: pending; deployment remains deferred.

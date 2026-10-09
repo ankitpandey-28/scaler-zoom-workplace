@@ -4,6 +4,8 @@ An original Zoom-style video conferencing application built with **Next.js, Type
 
 **Author:** Ankit Pandey
 
+**Repository:** [ankitpandey-28/scaler-zoom-workplace](https://github.com/ankitpandey-28/scaler-zoom-workplace)
+
 **Deployment:** deferred at the user's request. No deployment is performed by the setup commands below.
 
 ![Zoom-style public landing page](docs/images/landing-desktop.png)
@@ -13,7 +15,7 @@ An original Zoom-style video conferencing application built with **Next.js, Type
 Prerequisites: **Node.js 22+**, **Python 3.11+**, npm, and a current browser. Run commands from the repository root.
 
 ```sh
-git clone <your-repository-url>
+git clone https://github.com/ankitpandey-28/scaler-zoom-workplace.git
 cd scaler-zoom-workplace
 npm ci
 python -m venv .venv

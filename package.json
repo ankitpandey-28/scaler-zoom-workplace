@@ -1,0 +1,27 @@
+{
+  "name": "scaler-zoom-workplace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/run.mjs --dev",
+    "build": "next build",
+    "start": "node scripts/run.mjs",
+    "typecheck": "tsc --noEmit",
+    "test:api": "python -m unittest discover -s backend/tests -v",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "next": "16.4.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "lucide-react": "^0.577.0",
+    "http-proxy": "^1.18.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@playwright/test": "^1.58.2"
+  }
+}

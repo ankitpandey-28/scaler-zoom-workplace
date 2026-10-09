@@ -1,0 +1,14 @@
+services:
+  zoom:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - zoom-data:/app/storage
+    environment:
+      FRONTEND_ORIGINS: http://localhost:3000
+      TURN_URL: ${TURN_URL:-}
+      TURN_USERNAME: ${TURN_USERNAME:-}
+      TURN_CREDENTIAL: ${TURN_CREDENTIAL:-}
+volumes:
+  zoom-data:

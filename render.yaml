@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: scaler-zoom-workplace
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_PATH
+        value: /app/storage/zoom.db
+    # Free hosting resets SQLite on restarts. For persistence, choose a paid
+    # plan and add a disk at /app/storage in the Render dashboard.
